@@ -199,12 +199,7 @@ Example: Types team goal to land coherence solver
 
 Example: Async
 
-* Milestones
-    * Goals for the year
-* Vision
-* 
-* Author a goal RFC to establish (e.g.) a group to address 
-* Lay out the vision for 
+Example: Rust-for-Linux
 
 ---
 
