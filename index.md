@@ -135,11 +135,15 @@ Companies looking to drive work in Rust today face great uncertainty.
 
 ## OWNERS
 
-Goal RFC must be put forward by the *owners*, the ones who will be driving the design. 
+Goal RFC put forward by *owners*.
 
-It will describe the resources they have to apply towards the design.
+Owners drive the design.
 
-Final approvals on all designs will be done through team FCP, but owners should be given some leeway to decide close calls.
+RFC describes resources they will apply (e.g., developers).
+
+Owners make proposals, teams approve and give feedback.
+
+Insufficient experience with owners' design taste is a valid reason not to accept.
 
 ---
 
