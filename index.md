@@ -149,6 +149,23 @@ Insufficient experience with owners' design taste is a valid reason not to accep
 
 # Key idea
 
+## TEAM SUPPORT REQUIRED
+
+RFC specifies resource needed from the Rust project.
+
+e.g.,
+
+* design meeting every other month
+* dedicated reviewer(s)
+
+Teams should develop some "templates" for this.
+
+**Teams providing support are the ones who "accept" the goal.**
+
+---
+
+# Key idea
+
 ## SHORT-TERM GOAL
 
 Goal RFC must have a duration of <= 1 year.
@@ -163,29 +180,21 @@ Should include milestones so we can assess progress.
 
 All goals have milestones with dates. 
 
-We should publish regular blog posts summarizing progress towards accepted goals.
-
----
-
-# Key idea
-
-## SUPPORT REQUIRED
-
-RFC should clarify what resource needs from the Rust project.
-
-e.g., design meeting every other month to review progress, or dedicated reviewer(s). Teams should develop some "templates" for this.
+Publish regular blog posts summarizing progress towards accepted goals.
 
 ---
 
 # How it fits in
 
 * Experiment (optional)
-* Goal RFC (optional)
+* **Goal RFC (optional)**
 * Author RFC
 * Implement, get feedback, iterate
 * Stabilize
 
-Note that goal RFCs should not be **required** and should be reserved for things that the team is **committed to**.
+Goal RFCs signal commitment and importance; not a required step.
+
+.line2[![Arrow](./images/Arrow.png)]
 
 ---
 
@@ -241,13 +250,16 @@ We cut scope along the way.
 
 ## FILE A NEW GOAL
 
+Describing progress made thus far and continuing from the old one.
+
 ---
 
 # How this helps
 
 ## LIMBO and OVERCOMMIT
 
-* Team should be committing to regular review for goals on a given cadence, which in turn implies a limit to how many goals a team can take.
+* Team should establish limits on how many goals based on resources required
+    * e.g., a person can only be dedicated reviewer for one goal
 
 ---
 
@@ -264,7 +276,8 @@ We cut scope along the way.
 
 ## NO COMPROMISES
 
-Having a date to work against and a goal to ship *something*, even if you must *cut scope*, can prevent indefinite stalls.
+* Work against a **fixed date**
+* Better to ship *something* by then, even if you must cut scope
 
 ---
 
@@ -300,4 +313,9 @@ Contractor or employee can build out a *goal RFC* and negotiate with team, which
 
 * Would this be a good fit for your team?
 * Should we have a "goal setting season" (e.g., end of year)?
+* Who/how to report on progress?
+* Specific question on lang/compiler--
+    * Goal for a lang feature will require impl.
+    * Does this mean compiler team should accept the goal?
+    * Not our current setup and doesn't seem (to me) in the spirit of the teams.
 
