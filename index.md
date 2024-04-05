@@ -25,7 +25,7 @@ Me too.
     * "Do X by Y"
 * Taking a goal requires
     * Owner commitment
-        * adequare resources to do the job
+        * adequate resources to do the job
     * Team commitment
         * assigning a liaison
         * doing reviews
@@ -297,7 +297,7 @@ Contractor or employee can build out a *goal RFC* and negotiate with team, which
 
 ---
 
-# Does not solve everyting
+# Does not solve everything
 
 * How does team decide which goals to take?
 
